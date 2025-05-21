@@ -31,11 +31,6 @@ function getData() {
       
       let div1 = document.getElementById("div1")
       
-
-
-      
-      
-      
       let listenav = document.getElementById("listeNav");
       
 
@@ -75,7 +70,47 @@ function getData() {
 
       conteneur.append(logo,JournalName,div1);
       
-  
+
+
+      let themes = data.journal.themes
+      console.log(themes);
+      
+      themes.forEach(theme => {
+        
+        // Pour chaque theme
+        // 1. créer un bouton
+        let bouton = document.createElement("button");
+        bouton.className = "themes";
+
+        // 2. textcontent du bouton => le nom du theme
+        bouton.textContent = theme.nom;
+
+        // dire que les boutons sont les enfants d'un élément plus grand => id="button-container"
+        let buttoncontain = document.getElementById("button-container");
+
+        buttoncontain.appendChild(bouton);
+
+
+      });
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+      let boutton = document.getElementsByClassName("themes");
+      boutton.textContent = data.journal.themes[0].nom;
+      console.log(boutton);
+      
+
 
       
       
@@ -115,3 +150,11 @@ function getData() {
 
  ///ON écrit les fonctions ici
 
+
+
+
+
+
+//   <header></header>
+///  <div id="divslog"></div>
+//// <div id="div2"></div>
