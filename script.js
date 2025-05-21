@@ -13,15 +13,10 @@ function getData() {
        console.log('Données récupérées du fichier JSON :', data);
        /// ON ECRIT LE CODE ICI ! 
       
-      let conteneur = document.getElementById("navBar");
-      console.log(conteneur);
-      
-      let div1 = document.getElementById("div1")
-      console.log(div1);
 
 
-      
-      
+
+
 
       let logo = document.createElement("img");
       logo.src = "images/logo.jpg";
@@ -29,30 +24,58 @@ function getData() {
 
       let JournalName = document.createElement("h1");
       JournalName.textContent = data.journal.nomJournal;
-      
       console.log(JournalName);
+
+      let conteneur = document.querySelector("nav");
+      console.log(conteneur);
+      
+      let div1 = document.getElementById("div1")
+      
+
+
+      
+      
       
       let listenav = document.getElementById("listeNav");
-      console.log(listenav);
+      
 
       let liste = document.createElement("li");
-      console.log(liste);
+      
       
       let acceuil = document.createElement ("a");
       acceuil.textContent = "Acceuil"
       acceuil.href = "#"
-      console.log(acceuil);
+      
 
       let liste2 = document.createElement("li");
-      console.log(liste2);
+      
 
       let news = document.createElement ("a");
       news.textContent = "News"
       news.href = "#"
-      console.log(news);
       
       
+      let liste3 = document.createElement ("li");
       
+
+      let special = document.createElement ("a");
+      special.href = "#"
+      special.textContent = "Lebron?"
+      
+
+      liste.appendChild(acceuil);
+
+      liste2.appendChild(news);
+      
+      liste3.appendChild(special);
+
+      listenav.append(liste,liste2,liste3);
+      
+      div1.appendChild(listenav);
+
+      conteneur.append(logo,JournalName,div1);
+      
+  
 
       
       

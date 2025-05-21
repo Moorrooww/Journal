@@ -4,3 +4,32 @@ body{
     color: rgb(0, 0, 0);
 }
 
+nav{
+    background-color: white;
+    border-bottom: 3PX solid black;
+    height: 70px;
+    padding: 1px 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+img{
+ width: 70px;
+ height: 70px;
+}
