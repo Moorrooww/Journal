@@ -8,38 +8,38 @@
       "description": "À seulement 21 ans, Wemby s’impose comme un phénomène planétaire. Analyse d’un style de jeu unique.",
       "date": "20 Mai 2025",
       "theme": "Stars & talents",
-      "image": "https://cdn.pixabay.com/photo/2016/11/21/15/46/basketball-1848056_1280.jpg"
+      "image": "https://www.basketusa.com/wp-content/uploads/2023/11/wembanyama-envergure.jpg"
     },
     "articles": [
       {
         "titre": "NBA 2025 : les grandes surprises de la saison",
         "date": "10 Mai 2025",
         "theme": "Compétitions",
-        "image": "https://cdn.pixabay.com/photo/2016/11/29/10/07/sport-1867162_1280.jpg"
+        "image": "https://prmeng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2025/05/13/node_630308/50906379/public/2025/05/13/40554289.jpeg?itok=JLeXOUyU1747128541"
       },
       {
         "titre": "3x3, streetball et playground : l’autre visage du basket",
         "date": "5 Mai 2025",
         "theme": "Culture & terrain",
-        "image": "https://cdn.pixabay.com/photo/2017/03/30/13/54/basketball-2184067_1280.jpg"
+        "image": "https://cdn.paris.fr/paris/2024/09/25/huge-17c54c8f7cbefdf4516f31c417ee6e93.jpg"
       },
       {
         "titre": "Les Français en NCAA : qui seront les futurs espoirs NBA ?",
         "date": "28 Avril 2025",
         "theme": "Jeunes talents",
-        "image": "https://cdn.pixabay.com/photo/2017/02/27/21/59/basketball-2107887_1280.jpg"
+        "image": "https://www.bebasket.fr/_next/image?url=https%3A%2F%2Fcdn.bebasket.fr%2Fresources%2Fimages%2Fblog%2Fmaxime-raynaud-stanford-1ef9ac3b-f01b-60d0-a0b5-518a5f12fb4d.jpg&w=1920&q=75"
       },
       {
         "titre": "Équipement : quelles chaussures dominent les parquets en 2025 ?",
         "date": "15 Avril 2025",
         "theme": "Tendance & performance",
-        "image": "https://cdn.pixabay.com/photo/2016/11/23/14/45/basketball-1851416_1280.jpg"
+        "image": "https://static.runnea.com/images/202502/mejores-zapatillas-fitness-2025-portada-1200x572x80xX.jpg?1"
       },
       {
         "titre": "Basket et santé mentale : un enjeu grandissant chez les pros",
         "date": "3 Avril 2025",
         "theme": "Enjeux humains",
-        "image": "https://cdn.pixabay.com/photo/2018/01/31/07/58/man-3112388_1280.jpg"
+        "image": "https://cloudfront-eu-central-1.images.arcpublishing.com/leparisien/WFCXBCHCORHMXOI2FS5XQRB5P4.jpg"
       }
     ],
     "themes": [
@@ -72,16 +72,19 @@
       {
         "prenom": "Claire",
         "typeExperience": "Analyste basket",
+        "image":"images/femme2.png",
         "presentation": "Je décrypte les styles de jeu et les dynamiques d’équipe, de la NBA à la Pro A."
       },
       {
         "prenom": "Thomas",
         "typeExperience": "Coach formateur",
+        "image":"images/homme1.png",
         "presentation": "J'accompagne les jeunes talents et analyse l’évolution du basket moderne."
       },
       {
         "prenom": "Elena",
         "typeExperience": "Journaliste sport & société",
+        "image":"images/femme1.png",
         "presentation": "Je m'intéresse aux enjeux sociaux et culturels autour du basket."
       }
     ]
