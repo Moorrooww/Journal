@@ -19,7 +19,7 @@ function getData() {
 
 
       let logo = document.createElement("img");
-      logo.src = "images/logo.jpg";
+      logo.src = "images/noback.png";
       console.log(logo);
 
       let JournalName = document.createElement("h1");
@@ -38,16 +38,18 @@ function getData() {
       
       
       let acceuil = document.createElement ("a");
-      acceuil.textContent = "Acceuil"
       acceuil.href = "#"
+      let house = document.createElement("img");
+      house.src = "images/house.png"
       
 
       let liste2 = document.createElement("li");
       
 
       let news = document.createElement ("a");
-      news.textContent = "News"
       news.href = "#"
+      let newspaper = document.createElement("img");
+      newspaper.src = "images/newspaper.png"
       
       
       let liste3 = document.createElement ("li");
@@ -55,8 +57,14 @@ function getData() {
 
       let special = document.createElement ("a");
       special.href = "#"
-      special.textContent = "Lebron?"
+      let lebrooon = document.createElement("img");
+      lebrooon.src = "images/sun1.png"
+
+      special.appendChild(lebrooon);
       
+      acceuil.appendChild(house);
+
+      news.appendChild(newspaper);
 
       liste.appendChild(acceuil);
 
