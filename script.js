@@ -122,9 +122,10 @@ function getData() {
       conteurPr.id = "conteur-pr";
       console.log(conteurPr);
 
-      let articlePrImage = document.createElement("img");
-      articlePrImage.src = data.journal.articlePrincipal.image
-      console.log(articlePrImage);
+      let backgroundPr = document.createElement("div")
+      backgroundPr.id = "background";
+
+
       
       let articlePrTheme = document.createElement("p");
       articlePrTheme.textContent = data.journal.articlePrincipal.theme
@@ -145,7 +146,7 @@ function getData() {
 
       conteurPr.append(articlePrTheme,articlePrTitre,articlePrDesc,articlePrDate);
 
-      articleConteneur.append(articlePrImage,conteurPr)
+      articleConteneur.append(backgroundPr,conteurPr)
 
       let test = document.getElementById("test");
 
