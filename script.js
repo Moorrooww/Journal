@@ -265,8 +265,102 @@ function getData() {
 
 
        
+let logo = document.createElement("img"); 
+logo.src = "images/balloon.svg"; 
+console.log(logo); 
+
+let abonner = document.createElement("a");
+ abonner.href = "#"; 
+abonner.textContent = "S'abonner"; 
+
+let div1 = document.getElementById("div1"); 
+//////Regroupement 1/////////////// 
+div1.append(logo,abonner); 
+////////////////////////////////// 
+let conteneur = document.querySelector("nav"); 
+console.log(conteneur); 
+
+let div2 = document.getElementById("div2"); 
+
+let listenav = document.getElementById("listeNav"); 
+
+let liste1 = document.createElement("li"); 
+
+let home = document.createElement("a"); 
+home.href = "#"; 
+home.textContent = "Home"; 
+console.log(home); 
+
+let liste2 = document.createElement("li"); 
+
+let infos = document.createElement("a"); 
+infos.href = "#"; infos.textContent = "À propos"; 
+
+let liste3 = document.createElement("li"); 
+
+let contact = document.createElement("a"); 
+contact.href = "#"; 
+contact.textContent = "Contact"; let instagram = document.createElement("a"); 
+instagram.href = "#"; instagram.textContent = "Instagram"; 
+
+let div3 = document.getElementById("div3"); 
+
+div3.appendChild(instagram); 
+liste1.appendChild(home); 
+liste2.appendChild(infos); 
+liste3.appendChild(contact); 
+listenav.append(liste1, liste2, liste3,); 
+div2.appendChild(listenav); 
+conteneur.append(div1,div2,div3); 
+//////////////////////FIN///////////////////////////// 
 
 
+
+
+let JournalName = document.createElement("h1"); 
+JournalName.textContent = data.journal.nomJournal;
+console.log(JournalName);
+
+let test = document.getElementById("test");
+test.appendChild(JournalName);
+
+
+let head= getElementById("main");
+head.appendChild(test);
+    
+
+      //let news = document.createElement ("a");
+      //news.href = "#"
+      //let newspaper = document.createElement("img");
+      //newspaper.src = "images/newspaper.png"
+      //
+      //
+      //let liste3 = document.createElement ("li");
+      //
+//
+      //let special = document.createElement ("a");
+      //special.href = "#"
+      //let lebrooon = document.createElement("img");
+      //lebrooon.src = "images/sun1.png"
+//
+      //special.appendChild(lebrooon);
+      //
+      //acceuil.appendChild(house);
+//
+      //news.appendChild(newspaper);
+//
+      //liste.appendChild(acceuil);
+//
+      //liste2.appendChild(news);
+      //
+      //liste3.appendChild(special);
+//
+      //listenav.append(liste,liste2,liste3);
+      //
+      //div1.appendChild(listenav);
+//
+      //conteneur.append(logo,JournalName,div1);
+      //
 
 
 
